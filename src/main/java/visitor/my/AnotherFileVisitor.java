@@ -1,13 +1,13 @@
 package visitor.my;
 
-public class AnotherFileVisitor extends Visitor<File>{
+public class AnotherFileVisitor implements Visitor<File>{
 	@Override
-	protected boolean accept(Object obj) {
+	public boolean accept(Object obj) {
 		return obj instanceof File;
 	}
 
 	@Override
-	protected void doVisit(File file) {
+	public void doVisit(File file) {
 		System.out.println("current file: " + file.hashCode());
 	}
 }

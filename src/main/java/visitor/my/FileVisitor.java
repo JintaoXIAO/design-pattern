@@ -1,8 +1,8 @@
 package visitor.my;
 
-public class FileVisitor extends Visitor<File>{
+public class FileVisitor implements Visitor<File>{
 	@Override
-	protected boolean accept(Object obj) {
+	public boolean accept(Object obj) {
 		return obj instanceof File;
 	}
 

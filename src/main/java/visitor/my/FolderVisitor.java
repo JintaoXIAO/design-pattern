@@ -1,8 +1,8 @@
 package visitor.my;
 
-public class FolderVisitor extends Visitor<Folder>{
+public class FolderVisitor implements Visitor<Folder>{
 	@Override
-	protected boolean accept(Object obj) {
+	public boolean accept(Object obj) {
 		return obj instanceof Folder;
 	}
 
