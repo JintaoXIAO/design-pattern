@@ -18,10 +18,12 @@ plugins {
 mainClassName = 'App'
 
 dependencies {
-    // This dependency is found on compile classpath of this component and consumers.
+
     compile 'com.google.guava:guava:23.0'
 
-    // Use JUnit test framework
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
+
     testCompile 'junit:junit:4.12'
 }
 
