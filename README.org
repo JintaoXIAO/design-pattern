@@ -1,10 +1,11 @@
-* Design Patterns
+* Design Patterns from https://github.com/iluwatar/java-design-patterns
 ** DONE abstract-document
 ** TODO acyclic-visitor
 ** DONE abstract-factory
 ** TODO adapter
 ** TODO aggregator-microservices
-** TODO ambassador
+** DONE ambassador
+   CLOSED: [2020-05-05 Di 13:04]
 ** TODO api-gateway
 ** TODO async-method-invocation
 ** TODO balking
